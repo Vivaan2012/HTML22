@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="result"></p>
+    <p id="a"></p>
+    <script>
+        function findmax() {
+            var max = 0;
+            for (i = 0; i < arguments.length; i++) {
+                if (arguments[i] > max) {
+                    max = arguments[i];
+                }
+            }
+            return max;
+        }
+        document.getElementById("result").innerHTML = findmax(16, 4, 22, 6, 4);
+        document.getElementById("a").innerHTML = findmax(214, 2435, 24, 22, 24, 546);
+        var a = Math.abs(25)
+            document.write(a + "<br>")
+            var b = Math.floor(23.98)
+            document.write(b + "<br>")
+            var c = Math.ceil(23.98)
+            document.write(c + "<br>")
+            var d = Math.sqrt(25)
+            document.write(d + "<br>")
+            var e = Math.PI
+            document.write(e + "<br>")
+            var f = Math.round(27.4545)
+            document.write(f + "<br>")
+    </script>
+</body>
+
+</html>
